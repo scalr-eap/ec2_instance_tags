@@ -16,7 +16,7 @@ resource "aws_instance" "scalr" {
   subnet_id              = var.subnet
   vpc_security_group_ids = var.sg
   key_name               = var.key
-  tags {
+  tags = {
     Name = var.instance_name
     Puropse = var.purpose
     SOX = var.sox
