@@ -49,3 +49,7 @@ variable "instance_name" {
 variable "purpose" {
   global_variable = "purpose"
 }
+
+variable "sox" {
+  global_variable = "sox"
+}
