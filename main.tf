@@ -1,5 +1,4 @@
 provider "aws" {
-  region     = var.region
 }
 
 data "null_data_source" "values" {
